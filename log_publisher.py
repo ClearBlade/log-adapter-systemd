@@ -176,21 +176,6 @@ else:
 mqtt = CB_SYSTEM.Messaging(uid, CB_CONFIG["messagingPort"], keepalive=30)
 
 
-
-
-# # System credentials
-# SystemKey = "123455acbcdbwqsjebndjx"
-# SystemSecret = "DSFDSFKJDHFDKFJ31LSKVVDSV"
-# Url = "platform.clearblade.com"
-# mySystem = System(SystemKey, SystemSecret, Url, safe=False)
-
-# # Log in as Alstom
-# alstom = 
-
-# # Use alstom to access a messaging client
-# mqtt = mySystem.Messaging(user=alstom, keepalive=50000)
-
-
 # Set up callback function
 
 
